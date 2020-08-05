@@ -9,8 +9,8 @@
         - 'hottest_day' function queries the parquet files and prints the hottest day among all the data. It automatically create the spark context and run the Spark SQL queries.
         - 'hottest_temperature' function queries the parquet files and prints the hottest temperature among all the data. It automatically create the spark context and run the Spark SQL queries.
         - 'hottest_region' function queries the parquet files and prints the hottest region among all the data. It automatically create the spark context and run the Spark SQL queries.
-
-    2 - 'README.md' file with some intructions
+    2 - 'requirements.txt' file with the python packages needed to run the functions.
+    3 - 'README.md' file with some intructions
 
 # Prerequisites 
 
