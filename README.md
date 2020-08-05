@@ -4,7 +4,6 @@
  
     0 - 'Data Engineer Python Test.pdf' with test question
     1 - 'weather_data_processing.py' script contains a few functions which using the pyspark framework does the work asked on the test pdf file:
-        
         - 'csv_to_parquet' function converts the input csv files into parquet files. It automatically create the spark context and read/write the files
         - 'hottest_day' function queries the parquet files and prints the hottest day among all the data. It automatically create the spark context and run the Spark SQL queries.
         - 'hottest_temperature' function queries the parquet files and prints the hottest temperature among all the data. It automatically create the spark context and run the Spark SQL queries.
