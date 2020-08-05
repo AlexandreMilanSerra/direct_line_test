@@ -1,17 +1,16 @@
 # Project files
 
  The project's folders contains the following files:
-
-    1 - '*.csv' files with the input data
-    2 - 'Data Engineer Python Test.pdf' with test question
-    3 - 'weather_data_processing.py' script contains a few functions which using the pyspark framework does the work asked on the test pdf file:
+ 
+    1 - 'Data Engineer Python Test.pdf' with test question
+    2 - 'weather_data_processing.py' script contains a few functions which using the pyspark framework does the work asked on the test pdf file:
         
         - 'csv_to_parquet' function converts the input csv files into parquet files. It automatically create the spark context and read/write the files
         - 'hottest_day' function queries the parquet files and prints the hottest day among all the data. It automatically create the spark context and run the Spark SQL queries.
         - 'hottest_temperature' function queries the parquet files and prints the hottest temperature among all the data. It automatically create the spark context and run the Spark SQL queries.
         - 'hottest_region' function queries the parquet files and prints the hottest region among all the data. It automatically create the spark context and run the Spark SQL queries.
 
-    4 - 'README.md' file with some intructions
+    3 - 'README.md' file with some intructions
 
 # Prerequisites 
 
